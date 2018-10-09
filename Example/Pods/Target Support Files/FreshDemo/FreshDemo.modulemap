@@ -1,0 +1,6 @@
+framework module FreshDemo {
+  umbrella header "FreshDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

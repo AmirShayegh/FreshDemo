@@ -1,0 +1,16 @@
+PODS:
+  - FreshDemo (0.1.0)
+
+DEPENDENCIES:
+  - FreshDemo (from `../`)
+
+EXTERNAL SOURCES:
+  FreshDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FreshDemo: a88dd0526877f800bcc30ca2e5bdc4738bfe86c8
+
+PODFILE CHECKSUM: b8e9dfb7bf8796edd7d4f0f7a7aeeed333107e57
+
+COCOAPODS: 1.6.0.beta.1

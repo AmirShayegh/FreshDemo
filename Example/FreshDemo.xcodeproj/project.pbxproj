@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		579E46186DB28190A8080114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		579E46186DB28190A8080114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FreshDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		89BF5C041B25ED675D31D508 /* Pods_FreshDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F6E2FD58459212399AF8D0 /* Pods-FreshDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-FreshDemo_Tests/Pods-FreshDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C64891CF54DAC0FC9B580BEE /* Pods-FreshDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-FreshDemo_Example/Pods-FreshDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EE16D61759010CA4B04A9707 /* FreshDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FreshDemo.podspec; path = ../FreshDemo.podspec; sourceTree = "<group>"; };
-		F43ACDA163D581F486E89E99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE16D61759010CA4B04A9707 /* FreshDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FreshDemo.podspec; path = ../FreshDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F43ACDA163D581F486E89E99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7DCCCFAE31C937F8EE5BF2DE /* Pods-FreshDemo_Tests.debug.xcconfig */,
 				99F6E2FD58459212399AF8D0 /* Pods-FreshDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
