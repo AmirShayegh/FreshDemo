@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FreshDemo_Example' do
+  pod 'FreshDemo', :path => '../'
+
+  target 'FreshDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
